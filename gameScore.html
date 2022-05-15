@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+      <link rel="stylesheet" href="Gamestyle.CSS">
+
+    </head>
+    <title>Game Score</title>
+    <body> 
+    <div class="content-box">
+        
+
+        <h2 class="title">Count The Score</h2>
+
+        <div  class="player-box"> 
+        <h3>Player 1</h3>
+        <h3>Player 2</h3>
+        <h3 id="player1"> 0</h3>
+        <h3 id="player2"> 0</h3>
+        </div>
+
+    <form id="myForm">
+        <h4> Playing to </h4>
+    <select id="selectNumber">
+        <script>
+            var myArray = new Array("3", "4", "5","6","7","8","9","10","11");
+            for(i=0; i<myArray.length; i++) {  
+                document.write('<option value="' + myArray[i] +'">' + myArray[i] + '</option>');
+            }
+        </script>
+    </select>
+    </form>    
+       <input type='button' name='add' id ="btn1" class="btn" onclick="increasevalue01()"; ' value='player 1'>
+       <input type='button' name='add' id ="btn2" class="btn" onclick="increasevalue02()"; ' value='player 2'>
+       <input type='button' name='reset' id ="reset" class="btn" onclick="reset()"; ' value=' Reset'>
+    <script src="app.js"></script>
+
+</div>
+    
+    
+    </body>
+</html>

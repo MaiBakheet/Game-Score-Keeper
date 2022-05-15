@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap');
+
+h3{
+    margin: 5%;
+    padding: 5%;
+    display: inline;
+}
+h4{
+    margin: 5%;
+    padding: 5%;
+    display: inline;
+    text-align: center;
+}
+.content-box{
+	background-color: #FDF6F0;
+    font-size: 17px;
+	text-decoration: none;
+	padding: 10px 15px 10px 15px;
+	border: 1px solid #FCD8D4;
+	border-radius: 5px;
+	background-color: #F8E2CF;
+	margin: 10% 33% ;
+    width: 30%;
+    font-family: 'Cairo', sans-serif;
+}
+.title{
+    border-bottom: 1px solid black;
+}
+.player-box{
+    padding: 10px 15px 10px 15px;
+    margin: 5% 5% ;
+    text-align: center;
+}
+
+.btn{
+    background-color: #FDF6F0;
+    border-radius: 7px;
+     border: none;
+    cursor: pointer;
+    height: 28px;
+    width:120px;
+    font-size: 14px;
+    height: 35px;
+    margin-top: 5%;;
+}
